@@ -5,7 +5,11 @@ let dealerHand = 0;
 
 let hit = true;
 
+let playAgain = true
 
+let i;
+for (i=0; i<5; i++) {
+  if (playAgain) {
 
 // Deals the player a random number between 4 and 21 inclusive.
 function getRandomStart() {
@@ -83,5 +87,11 @@ if (playerHand < 21 && dealerHand < 21) { // Once dealer stops, and neither play
 } else {
   alert(`the dealer got ${dealerHand}, it's a draw`);
 }
+  
 
-
+} if (i < 4) {
+    playAgain = confirm("Would you like to play again?");
+  } else if (i === 4) {
+    alert(`thanks for playing`);
+  }
+}
