@@ -6,7 +6,7 @@ This project is complete.
 ## Description
 A short JavaScript skills challenge for myself to make a basic blackjack game vs the computer and using what I have learned so far on javascript. The aim was to better my understanding of writing in JavaScript, with a focus around javascript functions. The page showcases a few basic calculations, including a random card generator for both player and "dealer" as well as added and compared scores.
 
-https://rowankinross.github.io//
+https://rowankinross.github.io/simple-blackjack-game/
 
 ## Visuals
 The following image shows the appearance of the application:
